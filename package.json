@@ -3,13 +3,13 @@
   "description": "Rescript bindings for next-themes",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://github.com/greenfinity/gf-rescript-next-themes",
+  "homepage": "https://github.com/greenfinity/rescript-next-themes",
   "repository": {
     "type": "git",
-    "url": "git@github.com:greenfinity/gf-rescript-next.git"
+    "url": "git@github.com:greenfinity/rescript-next.git"
   },
   "bugs": {
-    "url": "https://github.com/greenfinity/gf-rescript-next-themes/issues"
+    "url": "https://github.com/greenfinity/rescript-next-themes/issues"
   },
   "author": "Balazs Ree <ree@greenfinity.hu>",
   "engines": {

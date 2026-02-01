@@ -1,7 +1,7 @@
 {
   "name": "@greenfinity/rescript-next-themes",
   "description": "Rescript bindings for next-themes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "homepage": "https://github.com/greenfinity/rescript-next-themes",
   "repository": {

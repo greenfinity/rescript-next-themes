@@ -1,5 +1,5 @@
 {
-  "name": "@greenfinity/rescript-next",
+  "name": "@greenfinity/rescript-next-themes",
   "jsx": { "version": 4, "mode": "classic" },
   "namespace": false,
   "compiler-flags": ["-bs-no-version-header"],

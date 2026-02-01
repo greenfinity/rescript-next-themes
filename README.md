@@ -14,7 +14,7 @@ Add the dependency to your `rescript.json`:
 
 ```json
 {
-  "bs-dependencies": [
+  "dependencies": [
     "@greenfinity/rescript-next-themes"
   ]
 }
@@ -33,6 +33,19 @@ Add the dependency to your `rescript.json`:
 ### ThemeProvider
 
 Wrap your application with the `ThemeProvider` component. In Next.js App Router, add it to your root layout:
+
+```rescript
+// app/layout.res
+@react.component
+let make = (~children) => {
+  <NextThemes.ThemeProvider
+    attribute={NextThemes.ThemeProvider.AttributeProp.class}>
+    {children}
+  </NextThemes.ThemeProvider>
+}
+```
+
+Example with all available props:
 
 ```rescript
 // app/layout.res
